@@ -1,0 +1,31 @@
+.post-meta {
+    .fa {
+        color: $grey-color;
+    }
+
+    > div {
+        display: inline-block;
+        margin-right: 1em;
+    }
+}
+
+.post-categories {
+    ul {
+        display: inline-block;
+        margin: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            padding: 0;
+
+            a:after {
+                content: ',';
+            }
+
+            &:last-child a:after {
+                content: '';
+            }
+        }
+    }
+}

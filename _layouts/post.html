@@ -17,5 +17,11 @@ layout: default
         {% include post-categories.html categories=post.categories %}
     </footer>
 
+    <div class="post-comments">
+
+        {% if page.comments %}
+            {% include disqus.html %}
+        {% endif %}
+    </div>
 
 </div>

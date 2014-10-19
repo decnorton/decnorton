@@ -1,14 +1,20 @@
 {% if include.categories.size > 0 %}
-    <ul class="categories">
-        {% for category in include.categories %}
-            {% assign category_name = site.data.categories[category].name %}
-            <a href="/category/{{ category | slugify }}/">
-                {% if category_name %}
-                    {{ category_name }}
-                {% else %}
-                    {{ category }}
-                {% endif %}
-            </a>
-        {% endfor %}
-    </ul>
+    <div class="post-categories">
+
+        <i class="fa {% if include.categories.size > 1 %}fa-tags{% else %}fa-tag{% endif %}"></i>
+
+        <ul class="post-categories">
+            {% for category in include.categories %}
+                {% assign category_name = site.data.categories[category].name %}
+
+                {% unless category_name %}
+                    {% assign category_name = category %}
+                {% endunless %}
+
+                <li>
+                    <a href="/category/{{ category | slugify }}/">{{ category_name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 {% endif %}

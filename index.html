@@ -9,6 +9,9 @@ layout: default
     {% assign posts = site.posts %}
     {% include post-list.html posts=posts %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">
+        subscribe
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
 
 </div>
