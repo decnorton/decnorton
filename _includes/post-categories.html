@@ -1,0 +1,14 @@
+{% if include.categories.size > 0 %}
+    <ul class="categories">
+        {% for category in include.categories %}
+            {% assign category_name = site.data.categories[category].name %}
+            <a href="/category/{{ category | slugify }}/">
+                {% if category_name %}
+                    {{ category_name }}
+                {% else %}
+                    {{ category }}
+                {% endif %}
+            </a>
+        {% endfor %}
+    </ul>
+{% endif %}

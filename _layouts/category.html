@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>Category: {{ site.data.categories[page.category].name }}</h1>
+
+{% if site.categories[page.category] %}
+
+    {% assign posts = site.categories[page.category] %}
+
+    {% include post-list.html posts=posts %}
+
+{% else %}
+    <p>There are no posts for this category.</p>
+{% endif %}

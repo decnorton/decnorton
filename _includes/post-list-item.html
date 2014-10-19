@@ -1,0 +1,16 @@
+<li class="post-list-item">
+	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+	<header>
+		<h2>
+			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h2>
+	</header>
+
+	<div class="excerpt">{{ post.excerpt }}</div>
+
+	<footer class="post-footer">
+	    {% include post-categories.html categories=post.categories %}
+	</footer>
+
+</li>

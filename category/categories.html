@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: categories/
+---
+
+{% capture categories %}
+  {% for category in site.categories %}
+    {{ category[0] }}
+  {% endfor %}
+{% endcapture %}
+
+{% assign categories = categories | split:' ' | sort %}
+
+{% for category in categories %}
+    <li>
+        {% assign category_name = site.data.categories[category].name %}
+
+        <a href="/category/{{ category }}/">
+            {% if category_name %}
+                {{ category_name }}
+            {% else %}
+                {{ category }}
+            {% endif %}
+        </a>
+    </li>
+{% endfor %}

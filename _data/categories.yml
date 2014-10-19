@@ -1,0 +1,40 @@
+code:
+    name: Code
+dat101:
+    name: DAT101
+dat102:
+    name: DAT102 Digital Culture
+dat103:
+    name: DAT103 Digital Media Design
+dat104:
+    name: DAT104 Web Technologies
+dat105:
+    name: DAT105 Creative Coding
+dat106:
+    name: DAT106 Emerging Technologies
+dat201:
+    name: DAT201 Strategies for Art &amp; Technology
+dat202:
+    name: DAT202 Creative Industries
+dat203:
+    name: DAT203 Urban API
+dat204:
+    name: DAT204 Advanced Web Technologies
+dat206:
+    name: DAT206 Emerging Technologies
+dat301:
+    name: DAT301 Real-Time
+dat303:
+    name: DAT303 Gameplay
+dat304:
+    name: DAT304 Venture Culture
+dat305:
+    name: DAT305 Dissertation
+dat307:
+    name: DAT307 BA Project
+php:
+    name: PHP
+tamar-growsmart:
+    name: Tamar Growsmart
+wordpress:
+    name: WordPress
