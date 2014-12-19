@@ -45,6 +45,9 @@ img {
     vertical-align: middle;
 }
 
+a img {
+    cursor: pointer;
+}
 
 
 /**
@@ -113,7 +116,6 @@ blockquote {
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -201,4 +203,13 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+hr {
+    height: 1px;
+    margin: 1em 0;
+
+    background: #dcdcdc;
+    border: none;
+    outline: none;
 }

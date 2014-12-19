@@ -178,6 +178,14 @@
     }
 }
 
+.post-list-item {
+    header {
+        margin-bottom: 16px;
+    }
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -231,6 +239,38 @@
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+
+    figure {
+        text-align: center;
+
+        &.dark {
+            a {
+                background: #1f1f1f;
+            }
+        }
+
+        a,
+        img {
+            display: inline-block;
+        }
+
+        a {
+            background: #efefef;
+            border-radius: 3px;
+        }
+
+        img {
+            max-width: 320px;
+            max-height: 320px;
+            margin: 8px;
+        }
+
+        figcaption {
+            margin-bottom: 8px;
+
+            color: #1f1f1f;
         }
     }
 }
