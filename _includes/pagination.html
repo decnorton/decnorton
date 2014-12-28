@@ -3,18 +3,23 @@
     <div class="pagination">
 
         {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% else %}
-            <span class="previous">Previous</span>
+            <a href="{{ paginator.previous_page_path }}" class="previous">&larr;</a>
         {% endif %}
 
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.page != 1 %}
+            <a href="/">First</a>
+        {% endif %}
+
+        <a class="current ">{{ paginator.page }} of {{ paginator.total_pages }}</a>
+
+        {% if paginator.page != paginator.total_pages %}
+            <a href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">Last</a>
+        {% endif %}
 
         {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-            <span class="next ">Next</span>
+            <a href="{{ paginator.next_page_path }}" class="next">&rarr;</a>
         {% endif %}
+
 
     </div>
 {% endif %}

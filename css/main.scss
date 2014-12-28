@@ -9,7 +9,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     16px;
 
 $grey-color:       #828282;
 $grey-color-light: #e6e6e6;
@@ -43,5 +43,6 @@ $on-laptop:        800px;
         "syntax-highlighting",
         "font-awesome",
         "pages",
-        "posts"
+        "posts",
+        "modules/pagination"
 ;
