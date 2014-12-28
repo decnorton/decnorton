@@ -14,4 +14,8 @@ permalink: /:year/:month/:title/
 # Build settings
 markdown: kramdown
 
+# Pagination
+paginate: 10
+paginate_path: "page/:num/"
+
 excerpt_separator: <!--more-->
