@@ -6,4 +6,17 @@
       selector: ['iframe', 'object'], // runs querySelectorAll()
       players: ['www.youtube.com', 'player.vimeo.com'] // players to support
     });
+
+    // Super simple email obfuscation
+    var deobfuscateEmail = function () {
+        var elements = document.querySelectorAll('[data-email]');
+
+        for (var i = 0; i < elements.length; i++) {
+            var email = elements[i].getAttribute('data-email').replace('*', '@').replace(',', '.');
+            elements[i].setAttribute('href', 'mailto:' + email);
+            elements[i].innerHTML = email;
+        }
+    };
+
+    deobfuscateEmail();
 })();
