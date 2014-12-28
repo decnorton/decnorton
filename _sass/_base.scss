@@ -11,9 +11,14 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+html,
+body {
+    font-size: $base-font-size;
+}
+
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
@@ -32,8 +37,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
-
 
 /**
  * Images
