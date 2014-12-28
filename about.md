@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About
+sub_title: I'm Declan Norton, a 22-year-old Full Stack Developer and student at the University of Plymouth.
+show_title: false
 permalink: /about/
 ---
-
-# My name is Declan Norton; I’m a 22-year-old Full Stack Developer.
 
 Currently an undergraduate studying BSc Digital Art and Technology at the University of Plymouth. I started in 2011 and aim to finish in the summer of 2015.
 
