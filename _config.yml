@@ -13,6 +13,7 @@ permalink: /:year/:month/:title/
 
 # Build settings
 markdown: kramdown
+exclude: ['_assets', '_scripts', 'README.md']
 
 # Pagination
 paginate: 10

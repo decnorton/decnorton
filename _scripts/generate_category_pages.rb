@@ -1,9 +1,9 @@
 require 'yaml'
 
-destination_dir = 'category/'
+destination_dir = '../category/'
 
 # Load categories from YAML file
-categories = YAML.load_file('_data/categories.yml')
+categories = YAML.load_file('../_data/categories.yml')
 
 for category in categories
     puts category[0]
