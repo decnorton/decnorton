@@ -1,4 +1,0 @@
-decnorton
-=========
-
-Personal website
