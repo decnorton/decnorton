@@ -2,6 +2,8 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import { BlogListCard } from "../components/blog-list-card"
 
+import Search from "../components/search"
+const searchIndices = [{ name: `Posts`, title: `Posts` }]
 import Layout from "../components/layout"
 import { SEO } from "../components/seo"
 
@@ -11,6 +13,8 @@ function IndexPage({ data }: any) {
     return (
         <Layout>
             <SEO title="Home" />
+
+            <Search indices={searchIndices} />
 
             {posts.map(({ node }: any) => (
                 <BlogListCard
