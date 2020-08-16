@@ -59,5 +59,18 @@ module.exports = {
                 path: `${__dirname}/src/`,
             },
         },
+
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Dec Norton`,
+                short_name: `Dec Norton`,
+                start_url: `/`,
+                background_color: `#fff`,
+                theme_color: `#444`,
+                display: `standalone`,
+                icon: `src/images/icon.png`
+            },
+        },
     ]
 }

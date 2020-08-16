@@ -25,16 +25,18 @@ const Layout = ({ children }: any) => {
     `);
 
     return (
-        <div className="site-wrapper">
+        <>
             <Header siteTitle={data.site.siteMetadata.title}
                     siteDescription={data.site.siteMetadata.description}/>
 
-            <main>{children}</main>
+            <div className="site-wrapper">
+                <main>{children}</main>
 
-            <footer className="site-footer">
-                © {new Date().getFullYear()} {data.site.siteMetadata.title}
-            </footer>
-        </div>
+                <footer className="site-footer">
+                    © {new Date().getFullYear()} {data.site.siteMetadata.title}
+                </footer>
+            </div>
+        </>
     )
 }
 

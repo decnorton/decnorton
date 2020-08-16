@@ -7,7 +7,7 @@ export default function BlogPost({ data }: any) {
 
     return (
         <Layout>
-            <article className="blog-post">
+            <article className="article">
                 <h1>{post.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </article>

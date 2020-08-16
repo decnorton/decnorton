@@ -9,8 +9,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     if (node.internal.type === `MarkdownRemark`) {
         const filename = createFilePath({ node, getNode, basePath: `posts` });
 
-        // console.log('\n', filename);
-
         // get the date and title from the file name
         const [, date, title] = filename.match(
             /^\/([\d]{4}-[\d]{2}-[\d]{2})-{1}(.+)\/$/
@@ -18,8 +16,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
         // create a new slug concatenating everything
         const slug = `/${date.split('-').join('/')}/${title}/`;
-
-        console.log('\n', slug);
 
         createNodeField({ node, name: `slug`, value: slug })
 
@@ -46,7 +42,6 @@ exports.createPages = async ({ graphql, actions }) => {
             }
         }
     `);
-    console.log(JSON.stringify(result, null, 4));
 
     const post = result.data.allMarkdownRemark.edges;
 

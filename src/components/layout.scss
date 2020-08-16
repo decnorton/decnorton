@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins&display=swap');
 
+$link-padding-vertical: .5rem;
+$link-padding-horizontal: 1rem;
+
 :root {
     font-size: 16px;
 }
 
-html, body {
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
     font-family: Poppins, sans-serif;
+    font-smooth: auto;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,27 +31,41 @@ a {
 .site-wrapper {
     max-width: 640px;
     margin: 0 auto;
+    padding: 0 8px;
 }
 
 .site-header {
     position: sticky;
     top: 0;
     background: white;
-    margin: 0 -10rem;
-    padding: 2rem 10rem;
+    padding: 2rem 0;
 
     z-index: 100;
 
     h1, p {
         margin: 0;
     }
+
+    .site-wrapper {
+        display: flex;
+        align-items: flex-end;
+
+        .site-header-right {
+            margin-left: auto;
+
+            .link {
+                margin-bottom: -$link-padding-vertical; // Reset the baseline
+                //border-radius: 3px;
+            }
+        }
+    }
 }
 
-%link {
+.link {
     display: inline-block;
     transition: .3s;
     border-radius: 1rem;
-    padding: .5rem 1rem;
+    padding: $link-padding-vertical $link-padding-horizontal;
     text-align: center;
 
     &:hover {
@@ -54,7 +79,7 @@ a {
     &-previous,
     &-next,
     &-page {
-        @extend %link;
+        @extend .link;
         margin: 0 2px;
     }
 
@@ -65,7 +90,7 @@ a {
 }
 
 .index-read-more {
-    @extend %link;
+    @extend .link;
 }
 
 .blog-post-card {
@@ -106,7 +131,7 @@ a {
     }
 }
 
-.blog-post {
+.article {
     img {
         max-width: 100%;
         height: auto;
@@ -135,6 +160,15 @@ a {
         text-decoration-color: #444;
     }
 
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        &:first-of-type {
+            margin-top: 4.4rem; // Make it line up with the index page
+        }
+    }
+
     h1, h2, h3 {
         margin-top: 3em;
 
@@ -146,11 +180,18 @@ a {
     }
 
     ul {
-        padding: 0 0 0 1rem;
+        padding: 0;
         list-style: none;
 
-        li:before {
-            content: "» ";
+        li {
+            position: relative;
+            padding: 0 0 0 1rem;
+
+            &:before {
+                position: absolute;
+                left: 0;
+                content: "» ";
+            }
         }
     }
 
@@ -162,6 +203,13 @@ a {
 
         background: #aaa;
         border: 0;
+    }
+
+    blockquote {
+        margin: 2rem;
+        margin-left: 0;
+        padding-left: 2rem;
+        border-left: 4px solid #eee;
     }
 }
 
