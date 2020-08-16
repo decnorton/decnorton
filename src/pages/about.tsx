@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react"
 
-import Layout from '../components/layout'
-import { SEO } from '../components/seo'
+import Layout from "../components/layout"
+import { SEO } from "../components/seo"
 
 export default function IndexPage() {
-
     return (
         <Layout>
-            <SEO title="About"/>
+            <SEO title="About" />
 
             <article className="article">
                 <p>
@@ -21,8 +20,8 @@ export default function IndexPage() {
                     I graduated from the University of Plymouth with a BA in Digital Art &amp; Technology (Interaction
                     Design), where we were encouraged to blog about our projects; so you will find that many of the
                     earlier posts revolve around this. Prior to that I had already gotten my feet wet building websites
-                    for local businesses whilst I was saving for a <a
-                    href="https://www.youtube.com/watch?v=eKFjWR7X5dU">gap yah</a>.
+                    for local businesses whilst I was saving for a{" "}
+                    <a href="https://www.youtube.com/watch?v=eKFjWR7X5dU">gap yah</a>.
                 </p>
 
                 <p>
@@ -56,8 +55,8 @@ export default function IndexPage() {
                 </p>
 
                 <p>
-                    I'm always reminded about a making a comment somewhere along the lines of "I don't want to
-                    work in the healthcare industry, it's boring", but I couldn't have been more wrong.
+                    I'm always reminded about a making a comment somewhere along the lines of "I don't want to work in
+                    the healthcare industry, it's boring", but I couldn't have been more wrong.
                 </p>
 
                 <h2>Technologies & Philosophies</h2>
@@ -68,27 +67,21 @@ export default function IndexPage() {
                     kept the development team small.
                 </p>
 
-                <p>
-                    My current day-to-day contains a mixture of the following:
-                </p>
+                <p>My current day-to-day contains a mixture of the following:</p>
 
                 <ul>
                     <li>
-                        Backend - mainly PHP & Postgres, including heavy use of{' '}
-                        <a href="https://laravel.com" target="_blank">Laravel</a>
+                        Backend - mainly PHP & Postgres, including heavy use of{" "}
+                        <a href="https://laravel.com" target="_blank">
+                            Laravel
+                        </a>
                     </li>
 
-                    <li>
-                        Frontend - Angular, Sass, &amp; Typescript
-                    </li>
+                    <li>Frontend - Angular, Sass, &amp; Typescript</li>
 
-                    <li>
-                        Android - Kotlin
-                    </li>
+                    <li>Android - Kotlin</li>
 
-                    <li>
-                        iOS - Swift
-                    </li>
+                    <li>iOS - Swift</li>
 
                     <li>
                         Devops - Kubernetes, Elastic Beanstalk, AWS, Google Cloud, and using Terraform for provisioning
@@ -109,10 +102,10 @@ export default function IndexPage() {
                 </p>
 
                 <p>
-                    As we were getting started we would host customer environments on <a
-                    href="https://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a>. Each customer would get their
-                    own web & database servers. This was fine whilst we had a handful of customers, but knew it wouldn't
-                    be manageable in the long-run. Deployments involved manually uploading a ZIP file for each
+                    As we were getting started we would host customer environments on{" "}
+                    <a href="https://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a>. Each customer would get
+                    their own web & database servers. This was fine whilst we had a handful of customers, but knew it
+                    wouldn't be manageable in the long-run. Deployments involved manually uploading a ZIP file for each
                     environment.
                 </p>
 
@@ -131,20 +124,14 @@ export default function IndexPage() {
                     mind, don't be afraid of tools you haven't used before, and throw the towel in.
                 </p>
 
-                <h2>
-                    Contacting me
-                </h2>
+                <h2>Contacting me</h2>
 
                 <p>
-                    Whilst I wouldn't claim to have much of an internet presence, you can find me on
-                    {' '}
-                    <a href="https://twitter.com/decnorton">Twitter</a>
-                    {' '}
-                    or
-                    {' '}
+                    Whilst I wouldn't claim to have much of an internet presence, you can find me on{" "}
+                    <a href="https://twitter.com/decnorton">Twitter</a> or{" "}
                     <a href="https://www.linkedin.com/in/dec-norton-9a930252/">LinkedIn</a>.
                 </p>
             </article>
         </Layout>
-    );
+    )
 }

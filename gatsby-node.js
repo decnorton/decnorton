@@ -1,21 +1,18 @@
-
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const config = require('./shared/config');
+const config = require("./shared/config")
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions
 
     if (node.internal.type === `MarkdownRemark`) {
-        const filename = createFilePath({ node, getNode, basePath: `posts` });
+        const filename = createFilePath({ node, getNode, basePath: `posts` })
 
         // get the date and title from the file name
-        const [, date, title] = filename.match(
-            /^\/([\d]{4}-[\d]{2}-[\d]{2})-{1}(.+)\/$/
-        );
+        const [, date, title] = filename.match(/^\/([\d]{4}-[\d]{2}-[\d]{2})-{1}(.+)\/$/)
 
         // create a new slug concatenating everything
-        const slug = `/${date.split('-').join('/')}/${title}/`;
+        const slug = `/${date.split("-").join("/")}/${title}/`
 
         createNodeField({ node, name: `slug`, value: slug })
 
@@ -41,9 +38,9 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
             }
         }
-    `);
+    `)
 
-    const post = result.data.allMarkdownRemark.edges;
+    const post = result.data.allMarkdownRemark.edges
 
     post.forEach(({ node }) => {
         createPage({
@@ -52,14 +49,14 @@ exports.createPages = async ({ graphql, actions }) => {
             context: {
                 // Data passed to context is available
                 // in page queries as GraphQL variables.
-                slug: node.fields.slug
-            }
+                slug: node.fields.slug,
+            },
         })
-    });
+    })
 
     // Create blog-list pages
     const posts = post
-    const postsPerPage = config.PAGINATION_PER_PAGE;
+    const postsPerPage = config.PAGINATION_PER_PAGE
     const numPages = Math.ceil(posts.length / postsPerPage)
 
     Array.from({ length: numPages }).forEach((_, i) => {

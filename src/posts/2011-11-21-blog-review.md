@@ -3,19 +3,20 @@ layout: post
 title: Blog Review
 date: 2011-11-21 11:51:08.000000000 +00:00
 categories:
-- DAT101
+    - DAT101
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  superawesome: 'false'
-  _edit_last: '1'
-  jabber_published: '1321876270'
-  email_notification: '1321876271'
+    superawesome: "false"
+    _edit_last: "1"
+    jabber_published: "1321876270"
+    email_notification: "1321876271"
 author: Dec Norton
 comments: true
 ---
+
 <p>Since starting this module, we've covered topics I'd expected but a lot more came as a surprise. In the first week we were asked to explore the idea of being a "cyborg", exploring the definition to a point I hadn't considered before. We thought about the extent that we would consider different technologies to be part of our lives. Whether we would think of them as a cognitive or a physical prosthesis. I found this a little strange at first, but it was only a taster of things to come.</p>
 
 <!--more-->

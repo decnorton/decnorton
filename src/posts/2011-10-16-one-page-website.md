@@ -3,20 +3,21 @@ layout: post
 title: One Page Website - The Process
 date: 2011-10-16 21:32:54.000000000 +01:00
 categories:
-- DAT104
+    - DAT104
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  superawesome: 'false'
-  _edit_last: '1'
-  jabber_published: '1318797175'
-  _wpas_skip_twitter: '1'
-  _wp_old_slug: one-page-website-design-process
+    superawesome: "false"
+    _edit_last: "1"
+    jabber_published: "1318797175"
+    _wpas_skip_twitter: "1"
+    _wp_old_slug: one-page-website-design-process
 author: Dec Norton
 comments: true
 ---
+
 <figure><a href="http://decnorton.com"><img class="size-full wp-image-75 " title="decnorton.com" src="/assets/screen-shot.png" alt="" /></a></figure>
 <p>Just putting the finishing touches on my one page website, thought I'd write a post about the kind of process I went through in designing and making it.</p>
 <p>Admittedly, I've been doing stuff like this for a few years now so I've got a bit of a head-start on most, though that's not to say everything is perfect.</p>

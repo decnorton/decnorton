@@ -3,17 +3,18 @@ layout: post
 title: Tamar GrowSmart - Concept
 date: 2013-02-19 15:41:07.000000000 +00:00
 categories:
-- dat202
-- tamar-growsmart
+    - dat202
+    - tamar-growsmart
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>As part of our Creative Industries module, we were required to liaise with and create a product or solution for <a href="http://tamargrowlocal.org">Tamar Grow Local</a>.</p>
 
 <!--more-->

@@ -3,20 +3,21 @@ layout: post
 title: FTP delete a folder using PHP
 date: 2012-02-23 02:00:25.000000000 +00:00
 categories:
-- Code
-- PHP
+    - Code
+    - PHP
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  superawesome: 'false'
-  _edit_last: '1'
-  jabber_published: '1329962427'
-  email_notification: '1329962431'
+    superawesome: "false"
+    _edit_last: "1"
+    jabber_published: "1329962427"
+    email_notification: "1329962431"
 author: Dec Norton
 comments: true
 ---
+
 <p>Had to do this for a project recently. If you've any experience with FTP you'll know it's not the most efficient of protocols. If you want to make changes to a file or folder you have to deal with each file individually.</p>
 
 <!--more-->

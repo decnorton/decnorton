@@ -3,16 +3,17 @@ layout: post
 title: Arduino + PureData
 date: 2013-02-20 15:09:31.000000000 +00:00
 categories:
-- dat206
+    - dat206
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>Today, we got to play around with getting PureData again. We managed to get an Arduino to interface with PureData, allowing us to use sensors to control the audio output of our PureData patch.</p>
 
 <!--more-->

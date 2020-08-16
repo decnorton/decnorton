@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
 

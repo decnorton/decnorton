@@ -3,8 +3,8 @@ layout: post
 title: "VideoAppShack: 2 Minute Pitch"
 date: 2014-11-01 18:00:00
 categories:
-- dat304
-- videoappshack
+    - dat304
+    - videoappshack
 tags: []
 status: publish
 type: post

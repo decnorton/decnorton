@@ -3,21 +3,22 @@ layout: post
 title: Developing with WordPress locally
 date: 2012-11-21 18:45:18.000000000 +00:00
 categories:
-- Wordpress
+    - Wordpress
 tags:
-- local
-- mamp
-- mysql
-- PHP
-- wordpress
+    - local
+    - mamp
+    - mysql
+    - PHP
+    - wordpress
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>Up until earlier this year I'd been "going commando" by working directly on the servers using tools like Coda to save and upload straight away. I'd either set up a dev subdomain or work straight on the live site. I'd never really put a thought into developing locally or considered the benefits. The situation arose where I needed to, so recently I've been working with MAMP (Mac, Apache, MySQL, and PHP) installed on my machine. It includes everything you need to run a dynamic website from my local machine.</p>
 
 <!--more-->

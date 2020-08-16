@@ -3,8 +3,8 @@ layout: post
 title: Introducing VideoAppShack
 date: 2014-11-01 12:26:29
 categories:
-- dat304
-- videoappshack
+    - dat304
+    - videoappshack
 tags: []
 status: publish
 type: post
@@ -19,7 +19,7 @@ VideoAppShack is a platform for creating high quality, native, video-on-demand a
 
 VideoAppShack is a cloud-based service that allows video content producers to create and manage their own branded video apps simply and efficiently.
 
-In the last couple of years the online video industry has seen huge growth. Websites like YouTube and Vimeo make it easy for producers to get a start, and many of these evolve from videos created for fun into full blown businesses. Some reportedly pulling in well over $1 million yearly ([Business Insider](http://www.businessinsider.com/richest-youtube-stars-2014-3?op=1&IR=T))
+In the last couple of years the online video industry has seen huge growth. Websites like YouTube and Vimeo make it easy for producers to get a start, and many of these evolve from videos created for fun into full blown businesses. Some reportedly pulling in well over \$1 million yearly ([Business Insider](http://www.businessinsider.com/richest-youtube-stars-2014-3?op=1&IR=T))
 
 As new brands grow and old ones adapt, they should all be looking at ways to deliver to their viewers and engage with them. Mobile is emerging as one of the most popular ways to view content, especially on the go. A Cisco report states that over 50% of mobile internet traffic is video and they forecast that this will grow to 69% by 2018.
 
@@ -44,11 +44,14 @@ VideoAppShack will open up the video-on-demand market by providing the platform 
 ## Key features
 
 ### Low maintenance
+
 VideoAppShack plugs into your existing content provider (such as YouTube, Brightcove) and updates automatically whenever you publish new content. No need to modify your workflow.
 
 ### Engage your viewers
+
 Let your viewers know when you publish new content. Engage with them using push notifications and social media plugins.
 
 ### Your app
+
 You choose what the app will look like. We'll provide a number of high quality, well tested templates with a number of customisation options.
 You provide the signing certificates, which means you can publish to app stores under your own account.

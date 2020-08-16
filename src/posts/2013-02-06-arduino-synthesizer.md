@@ -3,16 +3,17 @@ layout: post
 title: Arduino Synthesizer
 date: 2013-02-06 17:53:35.000000000 +00:00
 categories:
-- dat206
+    - dat206
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>Today we made a synthesizer using an Arduino and a five potentiometers.</p>
 
 <!--more-->

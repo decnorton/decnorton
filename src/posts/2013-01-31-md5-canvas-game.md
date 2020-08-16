@@ -3,16 +3,17 @@ layout: post
 title: HTML5 Canvas Game
 date: 2013-01-31 16:30:42.000000000 +00:00
 categories:
-- dat204
+    - dat204
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>We've recently started planning out our Canvas based game; Andy and I sat down to plan out a theme/game mechanics and we came up with the following.</p>
 
 <!--more-->

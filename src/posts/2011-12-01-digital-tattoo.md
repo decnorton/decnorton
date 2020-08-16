@@ -3,19 +3,20 @@ layout: post
 title: Digital Tattoo
 date: 2011-12-01 21:15:37.000000000 +00:00
 categories:
-- DAT103
+    - DAT103
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  superawesome: 'false'
-  _edit_last: '1'
-  jabber_published: '1322774139'
-  email_notification: '1322774141'
+    superawesome: "false"
+    _edit_last: "1"
+    jabber_published: "1322774139"
+    email_notification: "1322774141"
 author: Dec Norton
 comments: true
 ---
+
 <p><a href="/assets/tattoo1.jpg"></p>
 <figure><img title="Digital Tattoo" src="/assets/tattoo1.jpg" /></figure>
 <p></a></p>

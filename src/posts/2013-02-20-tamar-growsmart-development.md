@@ -3,17 +3,18 @@ layout: post
 title: Tamar GrowSmart - Development
 date: 2013-02-20 15:48:18.000000000 +00:00
 categories:
-- dat202
-- tamar-growsmart
+    - dat202
+    - tamar-growsmart
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>Development on the Tamar GrowSmart project was relatively pain-free as we had a good idea of what we wanted. To begin with, we planned out the app workflow.</p>
 
 <!--more-->

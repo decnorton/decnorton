@@ -3,8 +3,8 @@ layout: post
 title: "Self Assessment"
 date: 2014-12-19 09:31:23
 categories:
-- dat304
-- videoappshack
+    - dat304
+    - videoappshack
 tags: []
 status: publish
 type: post
@@ -91,12 +91,10 @@ I think the presentation content was good. I feel like in terms of aesthetics it
 
 One of the pieces of feedback I received was that there was a lack of commercials. I didn’t directly introduce my target market. While it could be deduced from the slides, I never addressed it directly. I also didn’t talk about financials or pricing structures, which would be the most important aspect for most investors.
 
-Regarding my presenting style, I still found myself falling back on filler words and exaggerated hand gestures but it has improved.  I spent more time rehearsing this presentation but was still half-relying on my notes, which I had expected to be visible to me on my screen but weren’t. Nevertheless I still managed to convey my primary points, although missing out a couple of supplementary statements. There are a couple of noticeable pauses as I recall points and try to get back into the flow of the pitch. Again, the main thing I think I can take away from this is that rehearsal is key.
+Regarding my presenting style, I still found myself falling back on filler words and exaggerated hand gestures but it has improved. I spent more time rehearsing this presentation but was still half-relying on my notes, which I had expected to be visible to me on my screen but weren’t. Nevertheless I still managed to convey my primary points, although missing out a couple of supplementary statements. There are a couple of noticeable pauses as I recall points and try to get back into the flow of the pitch. Again, the main thing I think I can take away from this is that rehearsal is key.
 
 ## Bibliography
 
 Belbin (2014) 'Team Role Theory - Belbin Team Roles'.
 
 Gardner, H. (2011) Frames of Mind: The Theory of Multiple Intelligences.
-
-

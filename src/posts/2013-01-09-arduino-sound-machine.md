@@ -3,18 +3,19 @@ layout: post
 title: Arduino "Sound Machine"
 date: 2013-01-09 23:48:19.000000000 +00:00
 categories:
-- dat206
+    - dat206
 tags:
-- arduino
-- sound machine
+    - arduino
+    - sound machine
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>First DAT206 session of the year and we're already getting stuck into Arduino. Today we made a basic "sound machine" using a light sensor and a buzzer. We read the light sensor value and told the buzzer to go off if the value dropped below 200 (ranges from 0 to 800ish).</p>
 
 <!--more-->

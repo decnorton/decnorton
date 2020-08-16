@@ -3,17 +3,18 @@ layout: post
 title: Tamar GrowSmart - Data Structure
 date: 2013-03-08 16:00:25.000000000 +00:00
 categories:
-- dat202
-- tamar-growsmart
+    - dat202
+    - tamar-growsmart
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>Actually developing the app was a bit more of a struggle. I had to decide what kind of data structure to use. At first I thought about storing the data in an SQLite database seeing as Android supports it natively, but decided against it once I realised it was a bit overkill for our needs. Also, the lack of a decent GUI made it difficult for others to interact with it.</p>
 
 <!--more-->

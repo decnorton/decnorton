@@ -3,19 +3,20 @@ layout: post
 title: Burning House
 date: 2011-10-09 23:11:52.000000000 +01:00
 categories:
-- DAT101
+    - DAT101
 tags:
-- burning house
+    - burning house
 status: publish
 type: post
 published: true
 meta:
-  superawesome: 'false'
-  _edit_last: '1'
-  jabber_published: '1318198316'
+    superawesome: "false"
+    _edit_last: "1"
+    jabber_published: "1318198316"
 author: Dec Norton
 comments: true
 ---
+
 <p>Flat mates are burning fish fingers again; what should I try and save this time?</p>
 
 <!--more-->

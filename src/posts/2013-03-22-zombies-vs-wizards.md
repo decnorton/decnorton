@@ -3,7 +3,7 @@ layout: post
 title: Zombies vs Wizards
 date: 2013-03-22 16:56:29.000000000 +00:00
 categories:
-- dat204
+    - dat204
 tags: []
 status: publish
 type: post
@@ -11,6 +11,7 @@ published: true
 author: Dec Norton
 comments: true
 ---
+
 <p>A few things have changed since my last post on this, we have now changed the title to Wizards vs Zombie. The game mechanics are largely the same, it's still a top-down shooter, but the player can now roam the whole map.</p>
 <!--more-->
 <p>We've each been given different roles within the team:</p>

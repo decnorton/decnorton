@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Dec Norton`,
         description: `Polyglot developer, CTO at CareLineLive`,
-        author: `@decnorton`
+        author: `@decnorton`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -10,8 +10,8 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `images`,
-                path: `${__dirname}/src/images`
-            }
+                path: `${__dirname}/src/images`,
+            },
         },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
@@ -24,8 +24,8 @@ module.exports = {
                 background_color: `#663399`,
                 theme_color: `#663399`,
                 display: `minimal-ui`,
-                icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
-            }
+                icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+            },
         },
         {
             resolve: `gatsby-plugin-sass`,
@@ -69,8 +69,8 @@ module.exports = {
                 background_color: `#fff`,
                 theme_color: `#444`,
                 display: `standalone`,
-                icon: `src/images/icon.png`
+                icon: `src/images/icon.png`,
             },
         },
-    ]
+    ],
 }

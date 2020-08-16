@@ -3,7 +3,7 @@ layout: post
 title: "Resource Database"
 date: 2014-12-18 13:19:09
 categories:
-- dat304
+    - dat304
 tags: []
 status: publish
 type: post

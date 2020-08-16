@@ -3,16 +3,17 @@ layout: post
 title: Semantic App
 date: 2012-12-16 20:11:50.000000000 +00:00
 categories:
-- dat204
+    - dat204
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>For my Semantic app I decided to make a simple todo list application. It's all browser-based, meaning there's no communication with a server. It make use of a couple of HTML5 JavaScript APIs, including LocalStorage and FileReader.</p>
 <p>Try it out here: <a href="http://todo.decnorton.com/">todo.decnorton.com</a></p>
 

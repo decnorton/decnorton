@@ -3,17 +3,18 @@ layout: post
 title: Tamar GrowSmart - Android Development
 date: 2013-03-20 16:29:26.000000000 +00:00
 categories:
-- dat202
-- tamar-growsmart
+    - dat202
+    - tamar-growsmart
 tags: []
 status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
+    _edit_last: "1"
 author: Dec Norton
 comments: true
 ---
+
 <p>Once we had the data in place and ready to be used, I started work on the Android development using the Android Developer Tools. I learnt a few new things on this project, including filtering <code>ListView</code>s and dealing with <code>DialogFragments</code>.</p>
 
 <!--more-->

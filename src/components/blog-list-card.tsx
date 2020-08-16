@@ -1,9 +1,9 @@
-import { Link } from 'gatsby';
-import React from 'react';
+import { Link } from "gatsby"
+import React from "react"
 
 export class BlogListCard extends React.Component<any> {
     render() {
-        let { post } = this.props;
+        let { post } = this.props
 
         return (
             <div className="blog-post-card">

@@ -3,8 +3,8 @@ layout: post
 title: "VideoAppShack: Elevator Pitch"
 date: 2014-12-15 14:46:43
 categories:
-- dat304
-- videoappshack
+    - dat304
+    - videoappshack
 tags: []
 status: publish
 type: post
