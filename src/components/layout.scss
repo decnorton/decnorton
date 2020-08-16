@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins&display=swap');
+
+:root {
+    font-size: 16px;
+}
+
+html, body {
+    font-family: Poppins, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Alata, Poppins, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    margin: 0 -10rem;
+    padding: 2rem 10rem;
+
+    z-index: 100;
+
+    h1, p {
+        margin: 0;
+    }
+}
+
+%link {
+    display: inline-block;
+    transition: .3s;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    text-align: center;
+
+    &:hover {
+        background: rgba(black, .05);
+    }
+}
+
+.pagination {
+    text-align: center;
+
+    &-previous,
+    &-next,
+    &-page {
+        @extend %link;
+        margin: 0 2px;
+    }
+
+    &-page-active {
+        font-weight: bold;
+        background: rgba(black, .05);
+    }
+}
+
+.index-read-more {
+    @extend %link;
+}
+
+.blog-post-card {
+    margin: 4rem -1rem;
+
+    > a {
+        display: block;
+        transition: .3s;
+        padding: .8rem 1rem;
+
+        border-radius: 1rem;
+    }
+
+    &:hover {
+        > a {
+            transform: translateY(-.5rem);
+            background: rgba(black, .05);
+        }
+    }
+
+    &-header {
+        h2, p {
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+    }
+
+    &-date {
+        color: #444;
+    }
+
+    &-excerpt {
+        margin-bottom: 0;
+    }
+}
+
+.blog-post {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    figure {
+        margin: 2rem;
+
+        figcaption {
+            margin-top: -4px;
+            color: #444;
+            font-size: .9rem;
+            font-style: italic;
+            text-align: center;
+        }
+    }
+
+    a[href] {
+        text-decoration: underline;
+        text-decoration-color: #444;
+    }
+
+    h1, h2, h3 {
+        margin-top: 3em;
+
+        + {
+            h1, h2, h3 {
+                margin-top: -.75em;
+            }
+        }
+    }
+
+    ul {
+        padding: 0 0 0 1rem;
+        list-style: none;
+
+        li:before {
+            content: "» ";
+        }
+    }
+
+    hr {
+        display: block;
+        width: 33%;
+        height: 1px;
+        margin: 2rem auto;
+
+        background: #aaa;
+        border: 0;
+    }
+}
+
+.site-footer {
+    margin-top: 4rem;
+    text-align: center;
+}
