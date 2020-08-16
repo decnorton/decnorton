@@ -18,7 +18,7 @@ export default class BlogList extends React.Component<any> {
 
         return (
             <Layout>
-                <SEO title="Home" />
+                <SEO title="Blog" />
 
                 <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
 

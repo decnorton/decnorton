@@ -25,6 +25,12 @@ export function SEO({ description, lang, meta, title }: any) {
         `
     )
 
+    if (title) {
+        title += ' | Dec Norton';
+    } else {
+        title = 'Dec Norton';
+    }
+
     const metaDescription = description || site.siteMetadata.description
 
     return (
