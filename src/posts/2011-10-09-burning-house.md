@@ -33,6 +33,6 @@ Occupation: Student</p>
 <li>Laptop</li>
 </ul>
 <p>While phone, wallet and laptop can easily be replaced, but the mementos I have stored in the folder and on my hard-drive are irreplaceable to me. I would never be able to get those back.</p>
-<p><a href="http://decnorton.dev/assets/img_20111009_225932.jpg"></p>
+<p><a href="https://decnorton.dev/assets/img_20111009_225932.jpg"></p>
 <figure><img title="Burning House items" src="/assets/img_20111009_225932.jpg?w=300" alt="Items" /></figure>
 <p></a></p>

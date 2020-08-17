@@ -18,7 +18,7 @@ author: Dec Norton
 comments: true
 ---
 
-<p><a title="Declan Norton by idat107, on Flickr" href="http://www.flickr.com/photos/pollenmagic/6264623386/"></p>
+<p><a title="Declan Norton by idat107, on Flickr" href="https://www.flickr.com/photos/pollenmagic/6264623386/"></p>
 <figure><img title="Digital Signature" src="/assets/digital-signature.png" /></figure>
 <p></a></p>
 <p>I chose the font Helvetica as it's widely regarded the most legible of typefaces, and is generally nice looking.</p>

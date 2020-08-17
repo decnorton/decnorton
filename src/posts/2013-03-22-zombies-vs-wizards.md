@@ -23,7 +23,7 @@ Mike - Graphics</p>
 <p>I started with a basic Game class with a draw function which I then looped using <code>requestAnimationFrame</code>. I started planning my classes and methods to try and make the code somewhat structured, despite my efforts it still ended up a bit messy but most importantly it works! Audio was implemented using the WebAudio API, which was relatively simple; and the HUD was done with inline SVG.</p>
 <p>The biggest challenge I faced was most definitely collision detection. I first set out to get pixel-perfect detection working by drawing each object on to it's own offscreen canvas and comparing values of each pixel before drawing it on the game canvas. I quickly gave up on this idea as I couldn't get my head around it and it wasn't necessary for such a simple game. I ended up generating a bounding box for each object and checking for overlaps. This seems to work fine.</p>
 <p>The rest was relatively easy, though it's still missing a couple of features we'd hoped to include, such as a high score system and more varied gameplay. Overall I'm happy with the outcome!</p>
-<p><a href="http://game.decnorton.com/">Play the game &rarr;</a></p>
+<p><a href="https://game.decnorton.com/">Play the game &rarr;</a></p>
 <figure>
 <a href="/assets/Screen-Shot-2013-03-22-at-16.55.51.png"><img src="/assets/Screen-Shot-2013-03-22-at-16.55.51.png" alt="Game with bounding boxes shown" width="802" height="502" class="alignnone size-full wp-image-453" /></a><br>
 </figure>

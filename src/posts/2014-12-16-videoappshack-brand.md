@@ -33,7 +33,7 @@ For that reason, we must remain personable yet professional. Our brand should ap
 
 ## Aesthetic
 
-Visually I want the branding to reflect current trends in the mobile market. Recently both Android and iOS have undergone huge visual overhauls. Apple moved away from skeuomorphism to a more futuristic interface combining flat surfaces and depth of field. Android has had a flat aesthetic for a while, but recently introduced a visual language called [Material Design](http://www.google.com/design/spec/material-design/introduction.html) that focuses on consistency and interaction.
+Visually I want the branding to reflect current trends in the mobile market. Recently both Android and iOS have undergone huge visual overhauls. Apple moved away from skeuomorphism to a more futuristic interface combining flat surfaces and depth of field. Android has had a flat aesthetic for a while, but recently introduced a visual language called [Material Design](https://www.google.com/design/spec/material-design/introduction.html) that focuses on consistency and interaction.
 
 ### Logo
 

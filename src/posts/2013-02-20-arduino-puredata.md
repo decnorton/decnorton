@@ -18,13 +18,13 @@ comments: true
 
 <!--more-->
 
-<p>We managed to hook 4 force sensing resistors up to an Arduino using a breadboard and pulled the readings into PureData using <a href="http://at.or.at/hans/pd/objects.html">Pduino</a> in PD and Firmata on the Arduino.</p>
+<p>We managed to hook 4 force sensing resistors up to an Arduino using a breadboard and pulled the readings into PureData using <a href="https://at.or.at/hans/pd/objects.html">Pduino</a> in PD and Firmata on the Arduino.</p>
 <figure><a href="/assets/IMG_20130220_142846.jpg"><img src="/assets/IMG_20130220_142846.jpg" alt="IMG_20130220_142846" width="1024" height="768" class="alignnone size-large wp-image-416" /></a><br />
 <figcaption>The Arduino</figcaption>
 </figure>
 <p>Here's a video of it in action:</p>
 <p>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/Vl__jNvYqAQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vl__jNvYqAQ" frameborder="0" allowfullscreen></iframe>
 </p>
 <p>The synth patch combines a phasor and oscillator to create the sound. By multiplying the sawtooth of the phasor with the sine wave of the oscillator we get a kind of tremolo effect.</p>
 <p>The phasor takes a value between 0 and 127 and the oscillator between 0 and 10. The force resistors gave us a max value of 0.5, so we had to scale them accordingly.</p>

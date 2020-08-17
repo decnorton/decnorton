@@ -14,13 +14,13 @@ author: Dec Norton
 comments: true
 ---
 
-<p>As I discussed in a previous post, I like to develop locally using MAMP. This means I keep two separate copies, a development version locally, and a release version on the server. <a href="http://decnorton.com/2012/11/developing-with-wordpress-locally/">See my previous post for info on how to set up WordPress using MAMP.</a></p>
+<p>As I discussed in a previous post, I like to develop locally using MAMP. This means I keep two separate copies, a development version locally, and a release version on the server. <a href="https://decnorton.com/2012/11/developing-with-wordpress-locally/">See my previous post for info on how to set up WordPress using MAMP.</a></p>
 
 <!--more-->
 
 <p>When you're running your development copy, you'll often want it to use the content from your live site. That's fine, we can connect to our live database from our local version no problem (providing your MySQL server allows remote access), the problems lies within the WordPress configuration. Within the WordPress configuration you are given two options relating to the URL of your site:</p>
-<p>WordPress Address - the location of the WordPress core files. Example: <code>http://example.com/wordpress/</code><br />
-Site Address - your site's root URL. Example: <code>http://example.com</code></p>
+<p>WordPress Address - the location of the WordPress core files. Example: <code>https://example.com/wordpress/</code><br />
+Site Address - your site's root URL. Example: <code>https://example.com</code></p>
 <p>These values are stored in the database, meaning if your database is set up for your live site but you're trying to run it from your local site, you'll get all sorts of problems occurring.</p>
 <p>We can get around that by doing the following:</p>
 <ol>
@@ -33,7 +33,7 @@ Site Address - your site's root URL. Example: <code>http://example.com</code></p
     if ($option == "siteurl" || $option == "home") {
     	/* Are we looking at dev site? */
     	if (strpos($_SERVER["SERVER_NAME"], "example.dev") !== false)
-    	   return "http://example.dev";
+    	   return "https://example.dev";
     }
     /* Continue as normal if we aren't looking at the dev site */
 

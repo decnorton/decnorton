@@ -23,12 +23,12 @@ comments: true
 
 <!--more-->
 
-<p><a href="http://www.mamp.info/">Get MAMP</a></p>
+<p><a href="https://www.mamp.info/">Get MAMP</a></p>
 <p>The advantages are great: you're basically recreating a server on your computer, which means as long as you're running MAMP, you don't need to be connected to the internet to work. If you're on the train home from work or 30,000 feet in the air you can still carry on working. It also eliminates the constant uploading that comes with working on the server, conserving bandwidth and speeding up the whole process considerably.</p>
 <p><em>Note: If you load any of your files from a <abbr title="Content Delivery Network">CDN</abbr>, you'll need to download a hard copy.</em></p>
 
 <h2>Downloading WordPress</h2>
-<p>Download the latest version of WordPress from <a href="http://wordpress.org/">wordpress.org</a> and extract to your working directory. E.g. <code>/Users/yourname/Sites/wordpress</code>.</p>
+<p>Download the latest version of WordPress from <a href="https://wordpress.org/">wordpress.org</a> and extract to your working directory. E.g. <code>/Users/yourname/Sites/wordpress</code>.</p>
 <h2>Setting up a site</h2>
 <p>For this post I'll be using MAMP Pro.</p>
 <ol>
@@ -42,11 +42,11 @@ You can name this whatever you like. Bear in mind if you specify an existing dom
 <p>&nbsp;</p>
 <figure><a href="/assets/Screen-Shot-2012-11-21-at-18.01.38.png"><img src="/assets/Screen-Shot-2012-11-21-at-18.01.38.png" alt="" /></a></figure>
 <p>&nbsp;</p>
-<p>Now when you visit <code>http://wordpress.dev/</code> in your browser you should see your site!</p>
+<p>Now when you visit <code>https://wordpress.dev/</code> in your browser you should see your site!</p>
 <h2>Setting up the database</h2>
 <p>Go back to your MAMP Pro window and go to the Server tab, then MySQL. Click Launch phpMyAdmin, which should open <abbr title="phpMyAdmin">PMA</abbr> in your browser.</p>
 <p>From the <abbr title="phpMyAdmin">PMA</abbr> homepage, go to the Database tab and create a new database called <code>wordpress</code> with a collation of <code>utf8_unicode_ci</code>.</p>
-<p>Go back to your host (<code>http://wordpress.dev/</code>) and enter the database details as follows:</p>
+<p>Go back to your host (<code>https://wordpress.dev/</code>) and enter the database details as follows:</p>
 <p>Database Name: <code>wordpress<br />
 </code>Username: <code>root<br />
 </code>Password: <code>root</code> (you can change this under the MySQL tab in MAMP)<br />

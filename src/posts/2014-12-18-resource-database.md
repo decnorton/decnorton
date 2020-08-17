@@ -18,31 +18,31 @@ There were a number of articles and a resources that I found useful when develop
 
 <hr>
 
-[**Cisco** - Global Mobile Data Traffic Forecast Update](http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white_paper_c11-520862.html)
+[**Cisco** - Global Mobile Data Traffic Forecast Update](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white_paper_c11-520862.html)
 
 An insight into what the mobile internet is being used for and a look into the future. Over half of mobile internet traffic has been video since 2012 and Cisco predict that this will grow to 69% by 2018.
 
-[**Brightcove** - Whitepaper: Video Strategy Framework](http://files.brightcove.com/brightcove-whitepaper-vsf.pdf)
+[**Brightcove** - Whitepaper: Video Strategy Framework](https://files.brightcove.com/brightcove-whitepaper-vsf.pdf)
 
 A whitepaper by video hosting company Brightcove. It talks about their suggested delivery strategy and the importance of making your content available on mobile.
 
-[**Roadfire Software** (Josh Brown) - When to use PhoneGap versus developing a native iOS app](http://roadfiresoftware.com/2014/04/when-to-use-phonegap-versus-developing-a-native-ios-app/)
+[**Roadfire Software** (Josh Brown) - When to use PhoneGap versus developing a native iOS app](https://roadfiresoftware.com/2014/04/when-to-use-phonegap-versus-developing-a-native-ios-app/)
 
-[**Overpass** (Eric Wroolie) - The Big Decision: Phonegap vs Native](http://www.overpass.co.uk/the-big-decision-phonegap-vs-native/)
+[**Overpass** (Eric Wroolie) - The Big Decision: Phonegap vs Native](https://www.overpass.co.uk/the-big-decision-phonegap-vs-native/)
 
 A couple of articles looking at benefits of using frameworks that package HTML5 apps as native apps. Both agree that this is great for prototyping and maintaining a cross-platform codebase, but in production you'd be silly not to go native.
 
 ### Company Hierarchy
 
-[**Forbes** (David Amerland) - Business Agility: Is The Company Hierarchy Holding You Back?](http://www.forbes.com/sites/netapp/2014/04/08/business-agility-holarchy/)
+[**Forbes** (David Amerland) - Business Agility: Is The Company Hierarchy Holding You Back?](https://www.forbes.com/sites/netapp/2014/04/08/business-agility-holarchy/)
 
-[**Venture Beat** (Jeff Bussbang) - Launching a start-up? Do it without titles](http://venturebeat.com/2011/07/20/launching-a-start-up-do-it-without-titles/)
+[**Venture Beat** (Jeff Bussbang) - Launching a start-up? Do it without titles](https://venturebeat.com/2011/07/20/launching-a-start-up-do-it-without-titles/)
 
 A couple of articles talking about the benefits of running a company without an internal hierarchy, allowing the company to be agile and adaptive.
 
 ### Competitors
 
-[**AppMachine** - Native Apps](http://www.appmachine.com/tour/high-quality-software/)
+[**AppMachine** - Native Apps](https://www.appmachine.com/tour/high-quality-software/)
 
 A page on the AppMachine website that details their development process.
 

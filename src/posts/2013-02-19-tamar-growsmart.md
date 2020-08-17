@@ -15,11 +15,11 @@ author: Dec Norton
 comments: true
 ---
 
-<p>As part of our Creative Industries module, we were required to liaise with and create a product or solution for <a href="http://tamargrowlocal.org">Tamar Grow Local</a>.</p>
+<p>As part of our Creative Industries module, we were required to liaise with and create a product or solution for <a href="https://tamargrowlocal.org">Tamar Grow Local</a>.</p>
 
 <!--more-->
 
-<p>Our group came up with a few ideas, but eventually settled on the idea of creating an app to encourage people to start home-growing their fruit and vegetables. <abbr title="Tamar Grow Local">TGL</abbr> have already produced a <a href="http://www.tamargrowlocal.org/files/vegetable-planting-planner.pdf">vegetable planting guide</a>, but it's served as a PDF and is quite complex to read. We wanted to use the information already available from this guide and add an interactive layer to it.</p>
+<p>Our group came up with a few ideas, but eventually settled on the idea of creating an app to encourage people to start home-growing their fruit and vegetables. <abbr title="Tamar Grow Local">TGL</abbr> have already produced a <a href="https://www.tamargrowlocal.org/files/vegetable-planting-planner.pdf">vegetable planting guide</a>, but it's served as a PDF and is quite complex to read. We wanted to use the information already available from this guide and add an interactive layer to it.</p>
 <p>Our concept was this:</p>
 <ul>
 <li>Allow users to create a virtual garden containing all of the fruit and veg that they're growing.</li>

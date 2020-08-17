@@ -18,7 +18,7 @@ author: Dec Norton
 comments: true
 ---
 
-<figure><a href="http://decnorton.com"><img class="size-full wp-image-75 " title="decnorton.com" src="/assets/screen-shot.png" alt="" /></a></figure>
+<figure><a href="https://decnorton.com"><img class="size-full wp-image-75 " title="decnorton.com" src="/assets/screen-shot.png" alt="" /></a></figure>
 <p>Just putting the finishing touches on my one page website, thought I'd write a post about the kind of process I went through in designing and making it.</p>
 <p>Admittedly, I've been doing stuff like this for a few years now so I've got a bit of a head-start on most, though that's not to say everything is perfect.</p>
 <p><!--more--></p>
@@ -29,7 +29,7 @@ comments: true
 
 <p>He'd released it under the Creative Commons license and allowed people to remix it and use it for commercial purposes. Played about with it in Photoshop (woo!) to make it a bit lighter.</p>
 <p>Next I used an article I had come across to create a background tile out of it.</p>
-<p><a href="http://designfestival.com/creating-seamless-textures-without-even-leaving-your-browser/" target="_blank">Creating Seamless Textures Without Even Leaving Your Browser</a></p>
+<p><a href="https://designfestival.com/creating-seamless-textures-without-even-leaving-your-browser/" target="_blank">Creating Seamless Textures Without Even Leaving Your Browser</a></p>
 <p>By this point I had everything I needed to start coding the site. I had my finalised design, I had my background tile and I had my brain.</p>
 <p>I started by thinking about what kind of containers I would need to house the content. The HTML ended up looking something like this:</p>
 <figure>

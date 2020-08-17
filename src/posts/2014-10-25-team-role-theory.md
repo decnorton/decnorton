@@ -16,7 +16,7 @@ In our first Venture Culture session we were asked to complete a couple of quest
 
 <!--more-->
 
-One of these was to determine our [Belbin Team Role](http://www.belbin.com/rte.asp?id=8), and the other was a [Multiple Intelligence Test](http://infed.org/mobi/howard-gardner-multiple-intelligences-and-education/) which is based on Howard Gardners MI Model.
+One of these was to determine our [Belbin Team Role](https://www.belbin.com/rte.asp?id=8), and the other was a [Multiple Intelligence Test](https://infed.org/mobi/howard-gardner-multiple-intelligences-and-education/) which is based on Howard Gardners MI Model.
 
 ## Results
 

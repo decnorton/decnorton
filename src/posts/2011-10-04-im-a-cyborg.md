@@ -14,4 +14,4 @@ slug: im-a-cyborg
 ---
 
 <p>Mind map thinking about whether us as humans can be considered cyborg. To what extent do we rely on technology?</p>
-<p><a href="http://prezi.com/cy0mpmzznzvh/dat102/" target="_blank">DAT102</a> on <a href="http://prezi.com" target="_blank">Prezi</a></p>
+<p><a href="https://prezi.com/cy0mpmzznzvh/dat102/" target="_blank">DAT102</a> on <a href="https://prezi.com" target="_blank">Prezi</a></p>

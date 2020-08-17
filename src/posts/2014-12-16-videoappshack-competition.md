@@ -31,7 +31,7 @@ Overall, Mobile Roadie offer a very flexible service that is tailored to brands 
 
 ### AppMachine
 
-AppMachine is a dutch company founded in 2011. They are the only other app creation platform that claims to output native apps. This is kind of a half-truth though. They use a platform called [Xamarin](http://xamarin.com/platform) to keep their code cross-platform that has it's own quirks and isn't officially supported.
+AppMachine is a dutch company founded in 2011. They are the only other app creation platform that claims to output native apps. This is kind of a half-truth though. They use a platform called [Xamarin](https://xamarin.com/platform) to keep their code cross-platform that has it's own quirks and isn't officially supported.
 
 The AppMachine platform in itself feels unfinished. When I tried to create an app using it the interface was clunky and full of bugs. Two of the three apps I downloaded that were from AppMachine crashed on my phone. Plus, their interface takes inspiration from Lego.
 
