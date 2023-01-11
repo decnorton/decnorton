@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/react-helmet": "^6.1.0",
     "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-transformer-remark": "^2.8.28",
+    "gatsby-transformer-remark": "^5.25.1",
     "prettier": "2.0.5",
     "sass": "^1.26.10",
     "typescript": "^3.9.7"
